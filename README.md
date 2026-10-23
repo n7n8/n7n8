@@ -1,5 +1,8 @@
 ## Hi there 👋
 
+> People don't know what they want until you show it to them.
+> Steve Jobs
+
 <!--
 **n7n8/n7n8** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 
