@@ -5,7 +5,7 @@
 > <br>—《新三国》第34集
 
 <!-- 
-“这一刻”指2026年5月1日；“历史”指中国大陆Android浏览器内核版本记录
+“这一刻”指2026年5月1日；“历史”指[中国大陆Android浏览器内核版本记录](https://github.com/n7n8/ah-browser-fragmentation)
 -->
 
 ---
