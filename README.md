@@ -1,6 +1,9 @@
 > People don't know what they want until you show it to them.
 > <br>—Steve Jobs
 
+>“从这一刻起，历史发生了剧变。”
+> <br>—《新三国》
+
 ---
 
 ### Social accounts
