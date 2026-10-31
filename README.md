@@ -12,9 +12,9 @@
 
 <a href="https://www.star-history.com/?repos=hushenghao%2FAndroidEasterEggs%2Cn7n8%2Fah-browser-fragmentation&type=date&logscale=&legend=top-left">
  <picture>
-   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=hushenghao/AndroidEasterEggs%2Cn7n8/ah-browser-fragmentation&type=date&theme=dark&logscale&legend=top-left" />
-   <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/chart?repos=hushenghao/AndroidEasterEggs%2Cn7n8/ah-browser-fragmentation&type=date&logscale&legend=top-left" />
-   <img alt="Star History Chart" src="https://api.star-history.com/chart?repos=hushenghao/AndroidEasterEggs%2Cn7n8/ah-browser-fragmentation&type=date&logscale&legend=top-left" />
+   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=hushenghao/AndroidEasterEggs%2Cn7n8/ah-browser-fragmentation&type=timeline&theme=dark&logscale&legend=top-left" />
+   <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/chart?repos=hushenghao/AndroidEasterEggs%2Cn7n8/ah-browser-fragmentation&type=timeline&logscale&legend=top-left" />
+   <img alt="Star History Chart" src="https://api.star-history.com/chart?repos=hushenghao/AndroidEasterEggs%2Cn7n8/ah-browser-fragmentation&type=timeline&logscale&legend=top-left" />
  </picture>
 </a>
 
