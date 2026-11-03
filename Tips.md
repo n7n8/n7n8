@@ -5,6 +5,7 @@
 [【DP】小米 17 Ultra 国行 HyperOS 4 如何关闭 Google 自动验证电话号码（设置里找不到Google的解决办法）](https://www.uscardforum.com/t/topic/542874)
 
 adb命令行
+
 ```
 adb shell am start -n com.google.android.gms/com.google.android.gms.app.settings.GoogleSettingsIALink
 ```
@@ -22,12 +23,27 @@ Activity启动器推荐：
 
 [小米澎湃OS4修改三方通行密钥App解决方案](https://www.lzskyline.com/archives/xiao-mi-peng-pai-os4xiu-gai-san-fang-tong-xing-mi-yao-appjie-jue-fang-an)
 
+根据包名搜索密码管理器app的凭据服务名：
+
 ```
 adb shell dumpsys package com.kaspersky.passwordmanager | grep "CredentialProvider
+```
 
-adb shell settings put secure credential_service com.x8bit.bitwarden/com.x8bit.bitwarden.Autofill.CredentialProviderService
-adb shell settings put secure credential_service_primary com.x8bit.bitwarden/com.x8bit.bitwarden.Autofill.CredentialProviderService
+查看当前凭据服务（Passkey相关）启用列表及首选：
 
+注：credential_service为已开启服务列表；credential_service_primary为首选服务。Android 14+支持多个凭据共存，如果启用了多个，它们会以冒号 : 分隔。
+
+- Google密码管理器：com.google.android.gms/com.google.android.gms.auth.api.credentials.credentialmanager.CredentialProviderService
+- Bitwarden：com.x8bit.bitwarden/com.x8bit.bitwarden.Autofill.CredentialProviderService
+
+```
 adb shell settings get secure credential_service
 adb shell settings get secure credential_service_primary
+```
+
+更改当前凭据服务（Passkey相关）启用列表及首选：
+
+```
+adb shell settings put secure credential_service com.x8bit.bitwarden/com.x8bit.bitwarden.Autofill.CredentialProviderService
+adb shell settings put secure credential_service_primary com.x8bit.bitwarden/com.x8bit.bitwarden.Autofill.CredentialProviderService
 ```
