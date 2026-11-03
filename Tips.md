@@ -4,6 +4,12 @@
 
 [【DP】小米 17 Ultra 国行 HyperOS 4 如何关闭 Google 自动验证电话号码（设置里找不到Google的解决办法）](https://www.uscardforum.com/t/topic/542874)
 
+Package Name：com.google.android.gms
+
+Activity：com.google.android.gms.app.settings.GoogleSettingsIALink
+
+Activity启动器推荐：
+<https://github.com/sdex/ActivityManager>
 
 ### HyperOS 通行密钥坑
 
