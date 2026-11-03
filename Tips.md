@@ -1,4 +1,4 @@
-### 打开“Google设置”（小米、荣耀可能有麻烦）
+### 打开“Google设置”（小米、荣耀国行手机可能有麻烦）
 
 [小米打开谷歌菜单](https://web.vip.miui.com/page/info/mio/mio/detail?app_version=dev.20051&postId=37895838)
 
