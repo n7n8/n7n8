@@ -17,9 +17,11 @@ Activity：com.google.android.gms.app.settings.GoogleSettingsIALink
 Activity启动器推荐：
 <https://github.com/sdex/ActivityManager>
 
-### CN-GMS 手机更新 Google Play 入口
+### CN-GMS 标签手机更新 Google Play 入口
 
 [APKMirror](https://www.apkmirror.com/apk/google-inc/google-play-store/)
+
+[APKPure](https://apkpure.com/google-play-store-app/com.android.vending/amp)
 
 ### HyperOS 通行密钥坑
 
