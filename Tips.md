@@ -33,8 +33,10 @@ adb shell dumpsys package com.kaspersky.passwordmanager | grep "CredentialProvid
 
 注：credential_service为已开启服务列表；credential_service_primary为首选服务。Android 14+支持多个凭据共存，如果启用了多个，它们会以冒号 : 分隔。
 
-- Google密码管理器：com.google.android.gms/com.google.android.gms.auth.api.credentials.credentialmanager.CredentialProviderService
+- Google密码管理器：com.google.android.gms/com.google.android.gms.auth.api.credentials.credman.service.PasswordAndPasskeyService
 - Bitwarden：com.x8bit.bitwarden/com.x8bit.bitwarden.Autofill.CredentialProviderService
+- Microsoft Authenticator：com.azure.authenticator/com.microsoft.authenticator.passkeys.businessLogic.AuthenticatorCredentialService
+- Microsoft Edge：com.microsoft.emmx/org.chromium.chrome.browser.webauthn.edge.PasskeyCredentialProviderService
 
 ```
 adb shell settings get secure credential_service
