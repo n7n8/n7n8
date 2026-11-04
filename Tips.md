@@ -26,7 +26,7 @@ Activity启动器推荐：
 根据包名搜索密码管理器app的凭据服务名：
 
 ```
-adb shell dumpsys package com.kaspersky.passwordmanager | grep "CredentialProvider
+adb shell dumpsys package com.kaspersky.passwordmanager | grep "CredentialProvider"
 ```
 
 查看当前凭据服务（Passkey相关）启用列表及首选：
