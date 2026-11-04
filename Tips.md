@@ -17,7 +17,7 @@ Activity：com.google.android.gms.app.settings.GoogleSettingsIALink
 Activity启动器推荐：
 <https://github.com/sdex/ActivityManager>
 
-### CN-GMS 标签手机更新 Google Play 入口
+### CN-GMS 标签手机（Google Play无法自更新）更新 Google Play 入口
 
 [APKMirror](https://www.apkmirror.com/apk/google-inc/google-play-store/)
 
