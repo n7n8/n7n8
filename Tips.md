@@ -17,6 +17,10 @@ Activity：com.google.android.gms.app.settings.GoogleSettingsIALink
 Activity启动器推荐：
 <https://github.com/sdex/ActivityManager>
 
+### CN-GMS 手机更新 Google Play 入口
+
+[APKMirror](https://www.apkmirror.com/apk/google-inc/google-play-store/)
+
 ### HyperOS 通行密钥坑
 
 [通行密钥在 HyperOS 2 无法使用（已更新OS3）](https://web.vip.miui.com/page/info/mio/mio/detail?postId=47465346)
