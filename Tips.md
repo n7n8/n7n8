@@ -55,3 +55,12 @@ adb shell settings get secure credential_service_primary
 adb shell settings put secure credential_service com.x8bit.bitwarden/com.x8bit.bitwarden.Autofill.CredentialProviderService
 adb shell settings put secure credential_service_primary com.x8bit.bitwarden/com.x8bit.bitwarden.Autofill.CredentialProviderService
 ```
+
+### 三星浏览器改区
+
+1. 打开
+```
+internet://debug
+```
+3. 打开“设置→Debug settings→Feature variation test”
+4. 将Country code(China)、Country iso code(CN)改掉
