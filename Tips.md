@@ -1,8 +1,12 @@
 ### 打开“Google设置”（小米、荣耀国行手机可能有麻烦）
 
+<!--
+
 [小米打开谷歌菜单](https://web.vip.miui.com/page/info/mio/mio/detail?app_version=dev.20051&postId=37895838)
 
 [【DP】小米 17 Ultra 国行 HyperOS 4 如何关闭 Google 自动验证电话号码（设置里找不到Google的解决办法）](https://www.uscardforum.com/t/topic/542874)
+
+-->
 
 adb命令行
 
