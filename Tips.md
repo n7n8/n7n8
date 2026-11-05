@@ -46,6 +46,8 @@ adb shell cmd package query-services --brief -a android.service.credentials.Cred
 
 ```
 adb shell settings get secure credential_service
+```
+```
 adb shell settings get secure credential_service_primary
 ```
 
@@ -53,6 +55,8 @@ adb shell settings get secure credential_service_primary
 
 ```
 adb shell settings put secure credential_service com.x8bit.bitwarden/com.x8bit.bitwarden.Autofill.CredentialProviderService
+```
+```
 adb shell settings put secure credential_service_primary com.x8bit.bitwarden/com.x8bit.bitwarden.Autofill.CredentialProviderService
 ```
 
