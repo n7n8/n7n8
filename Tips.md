@@ -29,10 +29,10 @@ Activity启动器推荐：
 
 [小米澎湃OS4修改三方通行密钥App解决方案](https://www.lzskyline.com/archives/xiao-mi-peng-pai-os4xiu-gai-san-fang-tong-xing-mi-yao-appjie-jue-fang-an)
 
-根据包名搜索密码管理器app的凭据服务名：
+扫描此设备所有支持凭据服务的app及其凭据服务名：
 
 ```
-adb shell dumpsys package com.kaspersky.passwordmanager | grep "CredentialProvider"
+adb shell cmd package query-services --brief -a android.service.credentials.CredentialProviderService
 ```
 
 查看当前凭据服务（Passkey相关）启用列表及首选：
