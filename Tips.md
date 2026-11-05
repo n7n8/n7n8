@@ -62,5 +62,5 @@ adb shell settings put secure credential_service_primary com.x8bit.bitwarden/com
 ```
 internet://debug
 ```
-3. 打开“设置→Debug settings→Feature variation test”
-4. 将Country code(China)、Country iso code(CN)改掉
+2. 打开“设置→Debug settings→Feature variation test”
+3. 将Country code(China)、Country iso code(CN)改掉
