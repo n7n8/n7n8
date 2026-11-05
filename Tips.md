@@ -25,9 +25,13 @@ Activity启动器推荐：
 
 ### HyperOS 通行密钥坑
 
+<!--
 [通行密钥在 HyperOS 2 无法使用（已更新OS3）](https://web.vip.miui.com/page/info/mio/mio/detail?postId=47465346)
 
 [小米澎湃OS4修改三方通行密钥App解决方案](https://www.lzskyline.com/archives/xiao-mi-peng-pai-os4xiu-gai-san-fang-tong-xing-mi-yao-appjie-jue-fang-an)
+
+[修复小米 / HyperOS 无法弹出 Passkey 的问题](https://milu.ink/627.html)
+-->
 
 扫描此设备所有支持凭据服务的app及其凭据服务名：
 
