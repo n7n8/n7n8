@@ -22,7 +22,11 @@ TOTP 找不到好用的（找到能云同步的更难），一换手机就丢。
 
 ## 在 Google Play 环境下该怎么用 Google 的「身份验证与恢复凭据」服务
 
+> 放弃“本土替代”幻想！！
+
 [Google Authenticator](https://play.google.com/store/apps/details?id=com.google.android.apps.authenticator2)
+
+[Aegis Authenticator](https://github.com/beemdevelopment/Aegis/releases)
 
 [Google 密码管理器（快捷方式）](https://play.google.com/store/apps/details?id=com.google.android.apps.credentialmanager)
 
