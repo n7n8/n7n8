@@ -1,3 +1,5 @@
+## 中国大陆 Android 的常态（对 GitHub 尤为明显）
+
 很多用户从没用过正经密码管理器（Bitwarden、1Password、KeePass 等），账号密码全靠脑子记或手机备忘录。
 
 Passkey（通行密钥）几乎没人主动推广，知道的人不多。
