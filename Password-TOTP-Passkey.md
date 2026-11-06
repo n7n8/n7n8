@@ -13,7 +13,7 @@ TOTP 找不到好用的（找到能云同步的更难），一换手机就丢。
 ## 为什么
 
 1. 海外 Android 的密码管理器、凭据管理器，默认是 Google Password Manager。
-2. 海外 Android 的 TOTP 管理器默认是 Google Authenticator。
+2. 海外 Android 的 TOTP 管理器大多数是 Google Authenticator 或 Aegis Authenticator。
 3. 中国大陆 Android 仅有的能跨品牌手机、实现手机 <-> PC同步的密码自动填充app是 Edge。
 4. 中国大陆 Android 仅有的能低成本用的 TOTP 管理器是 Microsoft Authenticator。但没有云同步，且不支持以通用明文格式直接导入或导出双重认证（2FA/TOTP）账户，意味着换机即丢。Aegis Authenticator 成本过高（Aegis 官方分发渠道：Google Play、F-Droid、GitHub Release）。
 5. 中国大陆 Android 缺少能跨品牌手机、实现手机 <-> PC同步的 Passkey 管理器。
