@@ -12,6 +12,8 @@ TOTP 找不到好用的（找到能云同步的更难），一换手机就丢。
 
 ## 为什么
 
+> 真正需要跨平台协作的高阶用户（如 GitHub 开发者、出海从业者、极客），发现中国大陆 Android 根本没有一个能打的、符合现代安全标准的“本土替代品”。
+
 1. 海外 Android 的密码管理器、凭据管理器，默认是 Google Password Manager。
 2. 海外 Android 的 TOTP 管理器大多数是 Google Authenticator 或 Aegis Authenticator。
 3. 中国大陆 Android 仅有的能跨品牌手机、实现手机 <-> PC同步的密码自动填充app是 Edge。
