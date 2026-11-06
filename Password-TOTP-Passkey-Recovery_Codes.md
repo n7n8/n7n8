@@ -20,3 +20,42 @@ TOTP 找不到好用的（找到能云同步的更难），一换手机就丢。
 [Google Authenticator](https://play.google.com/store/apps/details?id=com.google.android.apps.authenticator2)
 
 [Google 密码管理器（快捷方式）](https://play.google.com/store/apps/details?id=com.google.android.apps.credentialmanager)
+
+### 小米HyperOS如何解决
+
+扫描此设备所有支持凭据服务的app及其凭据服务名：
+
+```
+adb shell cmd package query-services --brief -a android.service.credentials.CredentialProviderService
+```
+
+查看当前凭据服务（Passkey相关）启用列表及首选：
+
+注：credential_service为已开启服务列表；credential_service_primary为首选服务。Android 14+支持多个凭据共存，如果启用了多个，它们会以冒号 : 分隔。
+
+```
+adb shell settings get secure credential_service
+```
+```
+adb shell settings get secure credential_service_primary
+```
+
+更改当前凭据服务（Passkey相关）启用列表及首选：
+
+```
+adb shell settings put secure credential_service com.x8bit.bitwarden/com.x8bit.bitwarden.Autofill.CredentialProviderService
+```
+```
+adb shell settings put secure credential_service_primary com.x8bit.bitwarden/com.x8bit.bitwarden.Autofill.CredentialProviderService
+```
+
+- Google密码管理器的凭据服务名：
+com.google.android.gms/com.google.android.gms.auth.api.credentials.credman.service.PasswordAndPasskeyService
+
+特别感谢↓
+
+[通行密钥在 HyperOS 2 无法使用（已更新OS3）](https://web.vip.miui.com/page/info/mio/mio/detail?postId=47465346)
+
+[小米澎湃OS4修改三方通行密钥App解决方案](https://www.lzskyline.com/archives/xiao-mi-peng-pai-os4xiu-gai-san-fang-tong-xing-mi-yao-appjie-jue-fang-an)
+
+[修复小米 / HyperOS 无法弹出 Passkey 的问题](https://milu.ink/627.html)
