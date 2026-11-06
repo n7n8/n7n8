@@ -24,6 +24,12 @@ TOTP 找不到好用的（找到能云同步的更难），一换手机就丢。
 
 ### Android 如何通过 adb 设置 Autofill
 
+扫描此设备所有支持密码填充的app及其凭据服务名：
+
+```
+adb shell cmd package query-services --brief -a android.service.autofill.AutofillService
+```
+
 查看当前自动填充状态：
 
 ```
@@ -33,7 +39,7 @@ adb shell settings get secure autofill_service
 启用 Google 自动填充：
 
 ```
-adb shell settings put secure autofill_service com.google.android.gms/com.google.android.gms.autofill.service.AutofillService
+adb shell settings put secure autofill_service com.google.android.gms/.autofill.service.AutofillService
 ```
 
 ### Android 如何通过 adb 设置 Passkey（小米HyperOS通用）
