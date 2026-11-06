@@ -21,7 +21,7 @@ TOTP 找不到好用的（找到能云同步的更难），一换手机就丢。
 
 [Google 密码管理器（快捷方式）](https://play.google.com/store/apps/details?id=com.google.android.apps.credentialmanager)
 
-### 小米HyperOS如何解决
+### 小米HyperOS如何解决（adb方法，Android手机通用）
 
 扫描此设备所有支持凭据服务的app及其凭据服务名：
 
