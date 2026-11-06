@@ -22,15 +22,15 @@ TOTP 找不到好用的（找到能云同步的更难），一换手机就丢。
 
 [Google 密码管理器（快捷方式）](https://play.google.com/store/apps/details?id=com.google.android.apps.credentialmanager)
 
-### Android 如何通过 adb 设置 Autofill
+### Android 通过 adb 设置 Autofill Service（涉及密码填充）
 
-扫描此设备所有支持密码填充的app及其凭据服务名：
+扫描此设备所有支持Autofill Service的app及其完整组件名：
 
 ```
 adb shell cmd package query-services --brief -a android.service.autofill.AutofillService
 ```
 
-查看当前自动填充状态：
+查看当前Autofill Service状态：
 
 ```
 adb shell settings get secure autofill_service
@@ -42,15 +42,15 @@ adb shell settings get secure autofill_service
 adb shell settings put secure autofill_service com.google.android.gms/.autofill.service.AutofillService
 ```
 
-### Android 如何通过 adb 设置 Passkey（小米HyperOS通用）
+### Android 通过 adb 设置 Credential Service (涉及Passkey)（小米HyperOS通用）
 
-扫描此设备所有支持凭据服务的app及其凭据服务名：
+扫描此设备所有支持Credential Service的app及其完整组件名：
 
 ```
 adb shell cmd package query-services --brief -a android.service.credentials.CredentialProviderService
 ```
 
-查看当前凭据服务（Passkey相关）启用列表及首选：
+查看当前Credential Service启用列表及首选：
 
 注：credential_service为已开启服务列表；credential_service_primary为首选服务。Android 14+支持多个凭据共存，如果启用了多个，它们会以冒号 : 分隔。
 
@@ -61,7 +61,7 @@ adb shell settings get secure credential_service
 adb shell settings get secure credential_service_primary
 ```
 
-更改当前凭据服务（Passkey相关）启用列表及首选：
+更改当前Credential Service启用列表及首选（以Google密码管理器为例）：
 
 请在“settings put secure credential_service com.google.android.gms/com.google.android.gms.auth.api.credentials.credman.service.PasswordAndPasskeyService”之后添加所有你需要的凭据服务（多个凭据服务名以冒号 : 分隔）
 
