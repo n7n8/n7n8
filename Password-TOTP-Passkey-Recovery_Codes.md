@@ -12,3 +12,7 @@ TOTP 找不到好用的（找到能云同步的更难），一换手机就丢。
 
 1. 海外 Android 的密码管理器、凭据管理器，默认是 Google Password Manager。
 2. 海外 Android 的 TOTP 管理器默认是 Google Authenticator。
+
+## 在 Google Play 环境下该怎么做
+
+[Google Authenticator下载链接](https://play.google.com/store/apps/details?id=com.google.android.apps.authenticator2)
