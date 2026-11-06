@@ -42,11 +42,13 @@ adb shell settings get secure credential_service_primary
 
 更改当前凭据服务（Passkey相关）启用列表及首选：
 
+请在“settings put secure credential_service”之后添加你想要的凭据服务（多个凭据服务名以冒号 : 分隔）
+
 ```
-adb shell settings put secure credential_service com.x8bit.bitwarden/com.x8bit.bitwarden.Autofill.CredentialProviderService
+adb shell settings put secure credential_service com.google.android.gms/com.google.android.gms.auth.api.credentials.credman.service.PasswordAndPasskeyService
 ```
 ```
-adb shell settings put secure credential_service_primary com.x8bit.bitwarden/com.x8bit.bitwarden.Autofill.CredentialProviderService
+adb shell settings put secure credential_service_primary com.google.android.gms/com.google.android.gms.auth.api.credentials.credman.service.PasswordAndPasskeyService
 ```
 
 - Google密码管理器的凭据服务名：
