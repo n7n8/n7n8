@@ -75,6 +75,8 @@ adb shell settings put secure credential_service_primary com.google.android.gms/
 - Google 密码管理器的 Credential Service 的完整组件名：
 com.google.android.gms/com.google.android.gms.auth.api.credentials.credman.service.PasswordAndPasskeyService
 
+附个[FIDO Bridge](https://play.google.com/store/apps/details?id=com.token2.companion)，可能会修复硬件通行密钥问题。
+
 特别感谢↓
 
 [通行密钥在 HyperOS 2 无法使用（已更新OS3）](https://web.vip.miui.com/page/info/mio/mio/detail?postId=47465346)
