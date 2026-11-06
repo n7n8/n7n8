@@ -72,7 +72,7 @@ adb shell settings put secure credential_service com.google.android.gms/com.goog
 adb shell settings put secure credential_service_primary com.google.android.gms/com.google.android.gms.auth.api.credentials.credman.service.PasswordAndPasskeyService
 ```
 
-- Google密码管理器的凭据服务名：
+- Google 密码管理器的 Credential Service 的完整组件名：
 com.google.android.gms/com.google.android.gms.auth.api.credentials.credman.service.PasswordAndPasskeyService
 
 特别感谢↓
