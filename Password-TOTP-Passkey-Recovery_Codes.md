@@ -22,7 +22,21 @@ TOTP 找不到好用的（找到能云同步的更难），一换手机就丢。
 
 [Google 密码管理器（快捷方式）](https://play.google.com/store/apps/details?id=com.google.android.apps.credentialmanager)
 
-### 小米HyperOS如何解决Passkey问题（adb方法，Android手机通用）
+### Android 如何通过 adb 设置 Autofill
+
+查看当前自动填充状态：
+
+```
+adb shell settings get secure autofill_service
+```
+
+启用 Google 自动填充：
+
+```
+adb shell settings put secure autofill_service com.google.android.gms/com.google.android.gms.autofill.service.AutofillService
+```
+
+### Android 如何通过 adb 设置 Passkey（小米HyperOS通用）
 
 扫描此设备所有支持凭据服务的app及其凭据服务名：
 
