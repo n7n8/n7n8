@@ -91,3 +91,15 @@ internet://debug
 <https://dldir1v6.qq.com/weixin/android/wxweb/updateConfig_dev.xml> 开发版
 
 <https://dldir1v6.qq.com/weixin/android/wxweb/updateConfig.xml> 正式版
+
+微信使用Android System Webview：
+<http://debugxweb.qq.com/?reset_webview_kind_sys>
+
+微信使用XWeb内核：
+<http://debugxweb.qq.com/?reset_webview_kind_xweb>
+
+微信更新体验版XWeb：
+<http://debugxweb.qq.com/?set_config_url=https://dldir1v6.qq.com/weixin/android/wxweb/updateConfig_dev.xml&check_xwalk_update>
+
+微信退回正式版XWeb：
+<http://debugxweb.qq.com/?set_config_url=https://dldir1v6.qq.com/weixin/android/wxweb/updateConfig.xml&check_xwalk_update>
