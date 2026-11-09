@@ -86,7 +86,9 @@ internet://debug
 
 ---
 
-### 微信 XWeb 动态加载配置
+### 微信 XWeb 微操
+
+动态加载配置：
 
 <https://dldir1v6.qq.com/weixin/android/wxweb/updateConfig_dev.xml> 开发版
 
