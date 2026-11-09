@@ -83,3 +83,11 @@ internet://debug
 ```
 2. 打开“设置→Debug settings→Feature variation test”
 3. 将Country code(China)、Country iso code(CN)改掉
+
+---
+
+### 微信 XWeb 配置
+
+<https://dldir1v6.qq.com/weixin/android/wxweb/updateConfig_dev.xml> 开发版
+
+<https://dldir1v6.qq.com/weixin/android/wxweb/updateConfig.xml> 正式版
