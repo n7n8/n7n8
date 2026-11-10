@@ -83,6 +83,12 @@ adb shell pm uninstall --user 0 com.miui.contentcatcher
 adb shell settings put secure theme_customization_overlay_packages '{"android.theme.customization.system_palette":"746BC1"}'
 ```
 
+### Android 原生应用管理
+
+```
+adb shell am start -n com.android.settings/.applications.ManageApplications
+```
+
 ### 为单个 App 单独设置语言
 
 1. 直接打开隐藏的“应用语言”设置页
