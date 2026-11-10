@@ -40,6 +40,8 @@ Activity启动器推荐：
 卸载系统自带的密码管理app：
 ```
 adb shell pm uninstall --user 0 com.miui.passwords
+```
+```
 adb shell pm uninstall --user 0 com.miui.password
 ```
 
