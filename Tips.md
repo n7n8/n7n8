@@ -83,6 +83,18 @@ adb shell pm uninstall --user 0 com.miui.contentcatcher
 adb shell settings put secure theme_customization_overlay_packages '{"android.theme.customization.system_palette":"746BC1"}'
 ```
 
+### 逐个 app 设置语言
+
+1. 直接打开隐藏的“应用语言”设置页
+
+如果你只是想看看系统里是否藏着这个界面，可以用命令强行把它拉出来：
+
+```
+adb shell am start -a android.settings.APP_LOCALE_SETTINGS -d "package:com.absinthe.libchecker"
+```
+
+把应用包名替换成你想改的 App（比如 com.absinthe.libchecker ）。如果系统支持，会直接跳到那个 App 的语言选择页。
+
 ### 三星浏览器改区
 
 1. 打开
