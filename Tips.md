@@ -80,6 +80,8 @@ adb shell settings put secure credential_service_primary com.x8bit.bitwarden/com
 - Microsoft Authenticator：com.azure.authenticator/com.microsoft.authenticator.passkeys.businessLogic.AuthenticatorCredentialService
 - Microsoft Edge：com.microsoft.emmx/org.chromium.chrome.browser.webauthn.edge.PasskeyCredentialProviderService
 
+推荐[FIDO Bridge](https://play.google.com/store/apps/details?id=com.token2.companion)，可能会修复小米手机的硬件通行密钥、Firefox通行密钥问题。
+
 最后，如果有root，一个命令行解决
 ```
 adb shell pm uninstall --user 0 com.miui.contentcatcher
