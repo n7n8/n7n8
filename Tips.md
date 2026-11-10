@@ -83,7 +83,7 @@ adb shell pm uninstall --user 0 com.miui.contentcatcher
 adb shell settings put secure theme_customization_overlay_packages '{"android.theme.customization.system_palette":"746BC1"}'
 ```
 
-### 逐个 app 设置语言
+### 为单个 App 单独设置语言
 
 1. 直接打开隐藏的“应用语言”设置页
 
@@ -94,6 +94,15 @@ adb shell am start -a android.settings.APP_LOCALE_SETTINGS -d "package:com.absin
 ```
 
 把应用包名替换成你想改的 App（比如 com.absinthe.libchecker ）。如果系统支持，会直接跳到那个 App 的语言选择页。
+
+2. 直接用命令设置语言
+不依赖任何界面，直接告诉系统“这个 App 用哪种语言”：
+
+```
+adb shell cmd locale set-app-locales "应用包名" --locales "语言代码"
+```
+
+例如把某个 App 设为繁体中文：--locales "zh-TW"；恢复跟随系统则把 --locales 后面的值留空 ""。
 
 ### 三星浏览器改区
 
