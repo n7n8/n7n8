@@ -92,3 +92,5 @@ com.google.android.gms/com.google.android.gms.auth.api.credentials.credman.servi
 [小米澎湃OS4修改三方通行密钥App解决方案](https://www.lzskyline.com/archives/xiao-mi-peng-pai-os4xiu-gai-san-fang-tong-xing-mi-yao-appjie-jue-fang-an)
 
 [修复小米 / HyperOS 无法弹出 Passkey 的问题](https://milu.ink/627.html)
+
+[来自 ChaosWind - 酷安](https://www.coolapk.com/feed/70169697?s=ZGJmODk4NTMxMjNkMDJnNjk4ZGVjYmF6a1603)
