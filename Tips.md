@@ -95,7 +95,7 @@ adb shell pm uninstall --user 0 com.miui.contentcatcher
 adb shell settings put secure theme_customization_overlay_packages '{"android.theme.customization.system_palette":"746BC1"}'
 ```
 
-### Android 原生应用管理
+### Android 原生应用管理（ColorOS不行）
 
 ```
 adb shell am start -n com.android.settings/.applications.ManageApplications
