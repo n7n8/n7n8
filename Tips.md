@@ -75,7 +75,7 @@ adb shell settings put secure credential_service_primary com.x8bit.bitwarden/com
 adb shell pm uninstall --user 0 com.miui.contentcatcher
 ```
 
-### Android 手机动态取色（包括小米HyperOS）
+### Android 手机 Material You 动态色彩设置（包括小米HyperOS）
 
 以紫色`#746BC1`为例：
 
