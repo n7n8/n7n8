@@ -37,6 +37,12 @@ Activity启动器推荐：
 [修复小米 / HyperOS 无法弹出 Passkey 的问题](https://milu.ink/627.html)
 -->
 
+卸载系统自带的密码管理app：
+```
+adb shell pm uninstall --user 0 com.miui.passwords
+adb shell pm uninstall --user 0 com.miui.password
+```
+
 扫描此设备所有支持凭据服务的app及其凭据服务名：
 
 ```
