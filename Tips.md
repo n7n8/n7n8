@@ -27,7 +27,7 @@ Activity启动器推荐：
 
 [APKPure](https://apkpure.com/google-play-store-app/com.android.vending/amp)
 
-### HyperOS 通行密钥坑
+### HyperOS 通行密钥坑解决方案
 
 <!--
 [通行密钥在 HyperOS 2 无法使用（已更新OS3）](https://web.vip.miui.com/page/info/mio/mio/detail?postId=47465346)
