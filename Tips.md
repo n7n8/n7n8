@@ -87,7 +87,12 @@ adb shell settings put secure credential_service_primary com.x8bit.bitwarden/com
 adb shell pm uninstall --user 0 com.miui.contentcatcher
 ```
 
-### Android调整字体粗细
+### HyperOS 隐藏小白条
+```
+adb shell settings put global hide_gesture_line 1
+```
+
+### Android 调整字体粗细
 
 以`-300`为例：
 
