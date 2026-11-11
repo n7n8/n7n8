@@ -87,6 +87,14 @@ adb shell settings put secure credential_service_primary com.x8bit.bitwarden/com
 adb shell pm uninstall --user 0 com.miui.contentcatcher
 ```
 
+### Android调整字体粗细
+
+以-300为例：
+
+```
+adb shell settings put secure font_weight_adjustment -300
+```
+
 ### Android 手机 Material You 动态色彩设置（包括小米HyperOS）
 
 以紫色`#746BC1`为例：
