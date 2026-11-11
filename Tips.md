@@ -121,10 +121,10 @@ adb shell am start -n com.android.settings/.applications.ManageApplications
 如果你只是想看看系统里是否藏着这个界面，可以用命令强行把它拉出来：
 
 ```
-adb shell am start -a android.settings.APP_LOCALE_SETTINGS -d "package:com.absinthe.libchecker"
+adb shell am start -a android.settings.APP_LOCALE_SETTINGS -d "<应用包名>"
 ```
 
-把应用包名替换成你想改的 App（比如 com.absinthe.libchecker ）。如果系统支持，会直接跳到那个 App 的语言选择页。
+把应用包名替换成你想改的 App（比如 `com.absinthe.libchecker` ）。如果系统支持，会直接跳到那个 App 的语言选择页。
 
 2. 直接用命令设置语言
 不依赖任何界面，直接告诉系统“这个 App 用哪种语言”：
@@ -148,12 +148,6 @@ internet://debug
 
 ### 微信 XWeb 微操
 
-动态加载配置：
-
-<https://dldir1v6.qq.com/weixin/android/wxweb/updateConfig_dev.xml> 开发版
-
-<https://dldir1v6.qq.com/weixin/android/wxweb/updateConfig.xml> 正式版
-
 微信使用Android System Webview：
 <http://debugxweb.qq.com/?reset_webview_kind_sys>
 
@@ -165,3 +159,9 @@ internet://debug
 
 微信退回正式版XWeb：
 <http://debugxweb.qq.com/?set_config_url=https://dldir1v6.qq.com/weixin/android/wxweb/updateConfig.xml&check_xwalk_update>
+
+动态加载配置：
+
+<https://dldir1v6.qq.com/weixin/android/wxweb/updateConfig_dev.xml> 开发版
+
+<https://dldir1v6.qq.com/weixin/android/wxweb/updateConfig.xml> 正式版
