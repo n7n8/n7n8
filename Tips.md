@@ -14,9 +14,9 @@ adb命令行
 adb shell am start -n com.google.android.gms/com.google.android.gms.app.settings.GoogleSettingsIALink
 ```
 
-Package Name：com.google.android.gms
+Package Name：`com.google.android.gms`
 
-Activity：com.google.android.gms.app.settings.GoogleSettingsIALink
+Activity：`com.google.android.gms.app.settings.GoogleSettingsIALink`
 
 Activity启动器推荐：
 <https://github.com/sdex/ActivityManager>
@@ -89,7 +89,7 @@ adb shell pm uninstall --user 0 com.miui.contentcatcher
 
 ### Android调整字体粗细
 
-以-300为例：
+以`-300`为例：
 
 ```
 adb shell settings put secure font_weight_adjustment -300
