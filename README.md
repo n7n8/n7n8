@@ -34,9 +34,9 @@
 
 网络连通性测试🤣：
 
-[t.cn](t.cn)（中国）
+[t.cn](https://t.cn)（中国）
 
-[t.me](t.me)（海外）
+[t.me](https://t.me)（海外）
 
 ---
 
