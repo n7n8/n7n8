@@ -32,6 +32,14 @@
 
 ---
 
+网络连通性测试🤣：
+
+<t.cn>（中国）
+
+<t.me>（海外）
+
+---
+
 ### Social accounts
 
 [![Bilibili](https://img.shields.io/badge/哔哩哔哩-00A1D6?style=for-the-badge&logo=bilibili&logoColor=white)](https://space.bilibili.com/3546980475210359)
