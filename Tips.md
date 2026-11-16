@@ -21,7 +21,7 @@ Activity启动器推荐：
 
 ### HyperOS 通行密钥坑解决方案
 
-卸载系统自带的密码管理app：
+卸载 HyperOS 系统自带的密码管理app：
 ```
 adb shell pm uninstall --user 0 com.miui.passwords
 ```
