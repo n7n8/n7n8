@@ -89,6 +89,11 @@ adb shell settings put secure credential_service_primary com.google.android.gms/
 
 附个[FIDO Bridge](https://play.google.com/store/apps/details?id=com.token2.companion)，可能会修复小米手机的硬件通行密钥、Firefox通行密钥问题。
 
+如果（小米、红米手机）有root，一个命令行解决通行密钥问题
+```
+adb shell pm uninstall --user 0 com.miui.contentcatcher
+```
+
 特别感谢↓
 
 [通行密钥在 HyperOS 2 无法使用（已更新OS3）](https://web.vip.miui.com/page/info/mio/mio/detail?postId=47465346)
