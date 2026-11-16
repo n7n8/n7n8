@@ -6,4 +6,8 @@
 
 [QQ浏览器](https://browser.qq.com/?named=1)（[更新日志](https://browser.qq.com/materials/versionlist)）
 
-[]() []() []() []() []() []() []() []() []() []() []() []() []() []() []() []() []() []() []() []() []() 
+[联想浏览器](https://browser.lenovo.com.cn/)
+
+[三星浏览器](https://browser.samsung.com/)（[Release Notes](https://developer.samsung.com/browser/release-note/windows-release-note.html)）
+
+[]() []() []() []() []() []() []() []() []() []() []() []() []() []() []() []() []() []() 
