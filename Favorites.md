@@ -2,7 +2,7 @@
 
 [360安全浏览器(信创版)](https://browser.360.net/gc/index.html)
 
-[QQ浏览器更新日志](https://browser.qq.com/materials/versionlist)
+[QQ浏览器](https://browser.qq.com/?named=1)（[更新日志](https://browser.qq.com/materials/versionlist)）
 
 [360安全浏览器（2）](https://browser.360.cn/se/channel_2.html)
 
