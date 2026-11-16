@@ -80,8 +80,12 @@ adb shell settings put secure credential_service com.google.android.gms/com.goog
 adb shell settings put secure credential_service_primary com.google.android.gms/com.google.android.gms.auth.api.credentials.credman.service.PasswordAndPasskeyService
 ```
 
-- Google 密码管理器的 Credential Service 的完整组件名：
-com.google.android.gms/com.google.android.gms.auth.api.credentials.credman.service.PasswordAndPasskeyService
+以下是一些已知的凭据服务名
+
+- Google密码管理器：com.google.android.gms/com.google.android.gms.auth.api.credentials.credman.service.PasswordAndPasskeyService
+- Bitwarden：com.x8bit.bitwarden/com.x8bit.bitwarden.Autofill.CredentialProviderService
+- Microsoft Authenticator：com.azure.authenticator/com.microsoft.authenticator.passkeys.businessLogic.AuthenticatorCredentialService
+- Microsoft Edge：com.microsoft.emmx/org.chromium.chrome.browser.webauthn.edge.PasskeyCredentialProviderService
 
 附个[FIDO Bridge](https://play.google.com/store/apps/details?id=com.token2.companion)，可能会修复小米手机的硬件通行密钥、Firefox通行密钥问题。
 
