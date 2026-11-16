@@ -63,9 +63,11 @@ adb shell am start -n com.android.settings/.applications.ManageApplications
 
 ### 为单个 App 单独设置语言
 
+[Android开发者文档](https://developer.android.com/reference/android/provider/Settings#ACTION_APP_LOCALE_SETTINGS)
+
 1. 直接打开隐藏的“应用语言”设置页
 
-如果你只是想看看系统里是否藏着这个界面，可以用命令强行把它拉出来：
+如果只是想看看系统里是否藏着这个界面，可以用命令把它拉出来：
 
 ```
 adb shell am start -a android.settings.APP_LOCALE_SETTINGS -d "<应用包名>"
