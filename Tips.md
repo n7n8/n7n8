@@ -29,47 +29,8 @@ adb shell pm uninstall --user 0 com.miui.passwords
 adb shell pm uninstall --user 0 com.miui.password
 ```
 
-扫描此设备所有支持凭据服务的app及其凭据服务名：
+其余部分转移至[Tips.md](./Tips.md)
 
-```
-adb shell cmd package query-services --brief -a android.service.credentials.CredentialProviderService
-```
-
-查看当前凭据服务（Passkey相关）启用列表及首选：
-
-注：credential_service为已开启服务列表，允许多个并存；credential_service_primary为首选服务，通常只有一个。
-
-Android 14+支持多个凭据共存，如果启用了多个，它们会以冒号 `:` 分隔。
-
-```
-adb shell settings get secure credential_service
-```
-```
-adb shell settings get secure credential_service_primary
-```
-
-更改当前凭据服务（Passkey相关）启用列表及首选：
-
-```
-adb shell settings put secure credential_service com.x8bit.bitwarden/com.x8bit.bitwarden.Autofill.CredentialProviderService
-```
-```
-adb shell settings put secure credential_service_primary com.x8bit.bitwarden/com.x8bit.bitwarden.Autofill.CredentialProviderService
-```
-
-以下是一些已知的凭据服务名
-
-- Google密码管理器：com.google.android.gms/com.google.android.gms.auth.api.credentials.credman.service.PasswordAndPasskeyService
-- Bitwarden：com.x8bit.bitwarden/com.x8bit.bitwarden.Autofill.CredentialProviderService
-- Microsoft Authenticator：com.azure.authenticator/com.microsoft.authenticator.passkeys.businessLogic.AuthenticatorCredentialService
-- Microsoft Edge：com.microsoft.emmx/org.chromium.chrome.browser.webauthn.edge.PasskeyCredentialProviderService
-
-推荐[FIDO Bridge](https://play.google.com/store/apps/details?id=com.token2.companion)，可能会修复小米手机的硬件通行密钥、Firefox通行密钥问题。
-
-最后，如果有root，一个命令行解决
-```
-adb shell pm uninstall --user 0 com.miui.contentcatcher
-```
 
 ### HyperOS 隐藏小白条
 ```
