@@ -47,6 +47,8 @@ adb shell settings put secure font_weight_adjustment -300
 
 ### Android 手机 Material You 动态色彩设置（包括小米HyperOS）
 
+[AOSP文档](https://source.android.com/docs/core/display/dynamic-color?hl=zh-cn)
+
 以紫色`#746BC1`、调色板样式`VIBRANT`为例：
 
 ```
