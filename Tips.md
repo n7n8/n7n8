@@ -29,7 +29,7 @@ adb shell pm uninstall --user 0 com.miui.passwords
 adb shell pm uninstall --user 0 com.miui.password
 ```
 
-其余部分转移至[Tips.md](./Tips.md)
+其余部分转移至[Password-TOTP-Passkey.md](./Password-TOTP-Passkey.md)
 
 
 ### HyperOS 隐藏小白条
