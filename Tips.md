@@ -49,6 +49,18 @@ adb shell settings put secure font_weight_adjustment -300
 
 [AOSP文档](https://source.android.com/docs/core/display/dynamic-color?hl=zh-cn)
 
+调色板样式`android.theme.customization.theme_style`：
+
+- `Tonal Spot`
+- `Neutral`
+- `Vibrant`
+- `Expressive`
+- `Rainbow`
+- `FruitSalad`
+- `Monochrome`
+- `Fidelity`
+
+
 以紫色`#746BC1`、调色板样式`VIBRANT`为例：
 
 ```
