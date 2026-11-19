@@ -67,7 +67,7 @@ adb shell settings put secure font_weight_adjustment -300
 adb shell settings put secure theme_customization_overlay_packages '{"android.theme.customization.system_palette":"746BC1","android.theme.customization.accent_color":"746BC1","android.theme.customization.theme_style":"VIBRANT"}'
 ```
 
-### Android 原生应用管理（ColorOS不行）
+### Android 原生应用管理（实测HyperOS可以，ColorOS不行）
 
 ```
 adb shell am start -n com.android.settings/.applications.ManageApplications
