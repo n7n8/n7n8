@@ -71,7 +71,7 @@ adb shell settings get secure credential_service_primary
 
 更改当前Credential Service启用列表及首选（以Google密码管理器为例）：
 
-请在“settings put secure credential_service com.google.android.gms/com.google.android.gms.auth.api.credentials.credman.service.PasswordAndPasskeyService”之后添加所有你需要的凭据服务（多个凭据服务名以冒号 : 分隔）
+请在“settings put secure credential_service com.google.android.gms/com.google.android.gms.auth.api.credentials.credman.service.PasswordAndPasskeyService”之后添加所有你需要的凭据服务（多个凭据服务名以冒号 `:` 分隔）
 
 ```
 adb shell settings put secure credential_service com.google.android.gms/com.google.android.gms.auth.api.credentials.credman.service.PasswordAndPasskeyService
