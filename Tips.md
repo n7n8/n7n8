@@ -19,9 +19,9 @@ Activity启动器推荐：
 
 [APKPure](https://apkpure.com/google-play-store-app/com.android.vending/amp)
 
-### HyperOS 通行密钥坑解决方案
+### ~HyperOS 通行密钥坑解决方案~
 
-~已经转移至[Autofill-TOTP-Passkey.md](./Autofill-TOTP-Passkey.md)~
+已经转移至[Autofill-TOTP-Passkey.md](./Autofill-TOTP-Passkey.md)
 
 
 ### HyperOS 隐藏小白条
