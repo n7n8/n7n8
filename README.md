@@ -28,7 +28,7 @@
 
 [个人瞎折腾教程](/Tips.md)
 
-[Autofill&TOTP&Passkey](/Password-TOTP-Passkey.md)
+[Password&TOTP&Passkey](/Password-TOTP-Passkey.md)
 
 ---
 
