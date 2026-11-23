@@ -24,7 +24,7 @@
 
 ### 仓库、链接推荐
 
-<https://github.com/n7n8/ah-browser-fragmentation>
+[n7n8/ah-browser-fragmentation](https://github.com/n7n8/ah-browser-fragmentation)
 
 [个人瞎折腾教程](/Tips.md)
 
