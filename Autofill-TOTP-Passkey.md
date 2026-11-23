@@ -82,10 +82,10 @@ adb shell settings put secure credential_service_primary com.google.android.gms/
 
 以下是一些已知的凭据服务名
 
-- Google密码管理器：com.google.android.gms/com.google.android.gms.auth.api.credentials.credman.service.PasswordAndPasskeyService
-- Bitwarden：com.x8bit.bitwarden/com.x8bit.bitwarden.Autofill.CredentialProviderService
-- Microsoft Authenticator：com.azure.authenticator/com.microsoft.authenticator.passkeys.businessLogic.AuthenticatorCredentialService
-- Microsoft Edge：com.microsoft.emmx/org.chromium.chrome.browser.webauthn.edge.PasskeyCredentialProviderService
+- Google密码管理器：`com.google.android.gms/com.google.android.gms.auth.api.credentials.credman.service.PasswordAndPasskeyService`
+- Bitwarden：`com.x8bit.bitwarden/com.x8bit.bitwarden.Autofill.CredentialProviderService`
+- Microsoft Authenticator：`com.azure.authenticator/com.microsoft.authenticator.passkeys.businessLogic.AuthenticatorCredentialService`
+- Microsoft Edge：`com.microsoft.emmx/org.chromium.chrome.browser.webauthn.edge.PasskeyCredentialProviderService`
 
 ### HyperOS Passkey 特殊解决方案
 
