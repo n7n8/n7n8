@@ -20,13 +20,13 @@ TOTP 找不到好用的（找到能云同步或能本地导出的更难），一
 4. 中国大陆 Android 仅有的能低成本用的 TOTP 管理器 App 是 Microsoft Authenticator。但[在 2027 年后云同步为 Google One](https://support.microsoft.com/en-us/authenticator/back-up-your-accounts-in-microsoft-authenticator)，且不支持以通用明文格式直接导入或导出双重认证（2FA/TOTP）账户，意味着很大概率换机即丢。Aegis Authenticator 成本过高（Aegis 官方分发渠道：Google Play、F-Droid、GitHub Release）。
 5. 中国大陆 Android 缺少能跨品牌手机、实现手机 <-> PC同步的 Passkey 管理器。
 
-## 在 Google Play 环境下该怎么用 Google 的「身份验证与恢复凭据」服务
+## 如何配置的「身份验证与恢复凭据」服务（推荐 Google Play 环境）
 
-> 放弃“本土替代”幻想！！
+<!-- > 放弃“本土替代”幻想！！ -->
 
 ### TOTP 软件选择
 
-Aegis Authenticator（[Google Play](https://play.google.com/store/apps/details?id=com.beemdevelopment.aegis) [GitHub](https://github.com/beemdevelopment/Aegis/releases) [F-Droid](https://f-droid.org/packages/com.beemdevelopment.aegis/)）
+Aegis Authenticator（[Google Play](https://play.google.com/store/apps/details?id=com.beemdevelopment.aegis) [GitHub](https://github.com/beemdevelopment/Aegis/releases) [F-Droid](https://f-droid.org/packages/com.beemdevelopment.aegis/) /| [F-Droid 清华源](https://mirrors.tuna.tsinghua.edu.cn/fdroid/repo/)）
 
 [Google Authenticator](https://play.google.com/store/apps/details?id=com.google.android.apps.authenticator2)
 
