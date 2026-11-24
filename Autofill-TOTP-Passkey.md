@@ -50,6 +50,13 @@ adb shell settings get secure autofill_service
 adb shell settings put secure autofill_service com.google.android.gms/.autofill.service.AutofillService
 ```
 
+以下是一些已知的自动填充服务名：
+
+- Google Autofill：`com.google.android.gms/.autofill.service.AutofillService`
+- Android Credential Manager：`com.android.credentialmanager/.autofill.CredentialAutofillService`
+- Microsoft Edge：`com.microsoft.emmx/org.chromium.chrome.browser.edge_autofill.EdgeAutofillService`
+- Firefox：`org.mozilla.firefox/org.mozilla.fenix.autofill.AutofillService`
+
 ### Android 通过 adb 设置 Credential Service (涉及Passkey)（小米HyperOS通用）
 
 扫描此设备所有支持Credential Service的app及其完整组件名：
