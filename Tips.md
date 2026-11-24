@@ -88,6 +88,11 @@ adb shell cmd locale set-app-locales "应用包名" --locales "语言代码"
 
 例如把某个 App 设为繁体中文：--locales "zh-TW"；恢复跟随系统则把 --locales 后面的值留空 ""。
 
+### 隐藏“临时切横屏”按钮
+```
+adb shell settings put secure show_rotation_suggestions 0
+```
+
 ### 三星浏览器改区
 
 1. 打开
