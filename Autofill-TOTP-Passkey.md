@@ -26,7 +26,7 @@ TOTP 找不到好用的（找到能云同步或能本地导出的更难），一
 
 ### TOTP 软件选择
 
-[Aegis Authenticator](https://github.com/beemdevelopment/Aegis/releases)
+Aegis Authenticator（[Google Play](https://play.google.com/store/apps/details?id=com.beemdevelopment.aegis) [GitHub](https://github.com/beemdevelopment/Aegis/releases) [F-Droid](https://f-droid.org/packages/com.beemdevelopment.aegis/)）
 
 [Google Authenticator](https://play.google.com/store/apps/details?id=com.google.android.apps.authenticator2)
 
