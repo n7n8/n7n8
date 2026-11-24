@@ -22,8 +22,6 @@ TOTP 找不到好用的（找到能云同步或能本地导出的更难），一
 
 ## 如何配置的「身份验证与恢复凭据」服务（推荐 Google Play 环境）
 
-<!-- > 放弃“本土替代”幻想！！ -->
-
 ### TOTP 软件选择
 
 Aegis Authenticator（[Google Play](https://play.google.com/store/apps/details?id=com.beemdevelopment.aegis) [GitHub](https://github.com/beemdevelopment/Aegis/releases) [F-Droid](https://f-droid.org/packages/com.beemdevelopment.aegis/)）<br>
