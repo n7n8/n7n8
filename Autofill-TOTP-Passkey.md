@@ -30,7 +30,7 @@ Aegis Authenticator（[Google Play](https://play.google.com/store/apps/details?i
 
 [Google Authenticator](https://play.google.com/store/apps/details?id=com.google.android.apps.authenticator2)
 
-微信小程序“数盾OTP”算是可行选择（清除小程序数据后仍能自动同步）
+微信小程序“数盾OTP”算是可行选择<br>（清除小程序数据后仍能自动同步，但无法导出）
 
 ### Android 通过 adb 设置 Autofill Service（涉及密码填充）
 
