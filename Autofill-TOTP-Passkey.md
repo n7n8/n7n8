@@ -18,7 +18,7 @@ TOTP 找不到好用的（找到能云同步或能本地导出的更难），一
 2. 海外 Android 的 TOTP 管理器多数是 Google Authenticator。
 3. 中国大陆 Android 仅有的获取门槛低、能跨品牌手机、实现手机 <-> PC同步的密码自动填充 app 是 Edge。
 4. 中国大陆 Android 仅有的能低成本用的 TOTP 管理器 App 是 Microsoft Authenticator。但[在 2027 年后云同步为 Google One](https://support.microsoft.com/en-us/authenticator/back-up-your-accounts-in-microsoft-authenticator)，且不支持以通用明文格式直接导入或导出双重认证（2FA/TOTP）账户，意味着很大概率换机即丢。Aegis Authenticator 成本过高（Aegis 官方分发渠道：Google Play、F-Droid、GitHub Release）。
-5. 中国大陆 Android 缺少能跨品牌手机、实现手机 <-> PC同步的 Passkey 管理器。
+5. 中国大陆 Android 能跨品牌手机、实现手机 <-> PC同步的 Passkey 管理器也只有 Edge（Microsoft 密码管理器）。
 
 ## 如何配置的「身份验证与恢复凭据」服务（推荐 Google Play 环境）
 
@@ -91,10 +91,10 @@ adb shell settings put secure credential_service_primary com.google.android.gms/
 
 以下是一些已知的凭据服务名
 
-- Google密码管理器：`com.google.android.gms/com.google.android.gms.auth.api.credentials.credman.service.PasswordAndPasskeyService`
+- Google 密码管理器：`com.google.android.gms/com.google.android.gms.auth.api.credentials.credman.service.PasswordAndPasskeyService`
 - Bitwarden：`com.x8bit.bitwarden/com.x8bit.bitwarden.Autofill.CredentialProviderService`
 - Microsoft Authenticator：`com.azure.authenticator/com.microsoft.authenticator.passkeys.businessLogic.AuthenticatorCredentialService`
-- Microsoft Edge：`com.microsoft.emmx/org.chromium.chrome.browser.webauthn.edge.PasskeyCredentialProviderService`
+- Microsoft Edge（Microsoft 密码管理器）：`com.microsoft.emmx/org.chromium.chrome.browser.webauthn.edge.PasskeyCredentialProviderService`
 
 ### HyperOS Passkey 特殊解决方案
 
