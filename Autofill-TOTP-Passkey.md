@@ -26,9 +26,11 @@ TOTP 找不到好用的（找到能云同步或能本地导出的更难），一
 
 ### TOTP 软件选择
 
+[Aegis Authenticator](https://github.com/beemdevelopment/Aegis/releases)
+
 [Google Authenticator](https://play.google.com/store/apps/details?id=com.google.android.apps.authenticator2)
 
-[Aegis Authenticator](https://github.com/beemdevelopment/Aegis/releases)
+微信小程序“数盾OTP”算是可行选择（清除小程序数据后仍能自动同步）
 
 ### Android 通过 adb 设置 Autofill Service（涉及密码填充）
 
