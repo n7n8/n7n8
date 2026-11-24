@@ -124,3 +124,5 @@ adb shell pm uninstall --user 0 com.miui.contentcatcher
 [来自 ChaosWind - 酷安](https://www.coolapk.com/feed/70169697?s=ZGJmODk4NTMxMjNkMDJnNjk4ZGVjYmF6a1603)
 
 <https://github.com/Kunzisoft/KeePassDX/issues/2220>
+
+<https://github.com/Xposed-Modules-Repo/io.github.howard20181.hyperpasskey>
