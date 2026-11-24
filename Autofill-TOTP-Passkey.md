@@ -53,10 +53,10 @@ adb shell settings put secure autofill_service com.google.android.gms/.autofill.
 
 以下是一些已知的自动填充服务名：
 
-- Google Autofill：`com.google.android.gms/.autofill.service.AutofillService`
+- Google Play services（Google 密码管理器）：`com.google.android.gms/.autofill.service.AutofillService`
 - Android Credential Manager：`com.android.credentialmanager/.autofill.CredentialAutofillService`
 - Bitwarden：`com.x8bit.bitwarden/.Autofill.CredentialProviderService`
-- Microsoft Edge：`com.microsoft.emmx/org.chromium.chrome.browser.edge_autofill.EdgeAutofillService`
+- Microsoft Edge（Microsoft 密码管理器）：`com.microsoft.emmx/org.chromium.chrome.browser.edge_autofill.EdgeAutofillService`
 - Firefox：`org.mozilla.firefox/org.mozilla.fenix.autofill.AutofillService`
 
 ### Android 通过 adb 设置 Credential Service (涉及Passkey)（小米HyperOS通用）
@@ -91,7 +91,7 @@ adb shell settings put secure credential_service_primary com.google.android.gms/
 
 以下是一些已知的凭据服务名
 
-- Google 密码管理器：`com.google.android.gms/com.google.android.gms.auth.api.credentials.credman.service.PasswordAndPasskeyService`
+- Google Play services（Google 密码管理器）：`com.google.android.gms/com.google.android.gms.auth.api.credentials.credman.service.PasswordAndPasskeyService`
 - Bitwarden：`com.x8bit.bitwarden/com.x8bit.bitwarden.Autofill.CredentialProviderService`
 - Microsoft Authenticator：`com.azure.authenticator/com.microsoft.authenticator.passkeys.businessLogic.AuthenticatorCredentialService`
 - Microsoft Edge（Microsoft 密码管理器）：`com.microsoft.emmx/org.chromium.chrome.browser.webauthn.edge.PasskeyCredentialProviderService`
