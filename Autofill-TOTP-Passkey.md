@@ -69,7 +69,7 @@ adb shell cmd package query-services --brief -a android.service.credentials.Cred
 
 查看当前Credential Service启用列表及首选：
 
-注：credential_service为已开启服务列表；credential_service_primary为首选服务。Android 14+支持多个凭据共存，如果启用了多个，它们会以冒号 `:` 分隔。
+注：credential_service为已开启服务列表（可以设置多个）；credential_service_primary为首选服务（建议只设置一个）。Android 14+支持多个凭据共存，如果启用了多个，它们会以冒号 `:` 分隔。
 
 ```
 adb shell settings get secure credential_service
