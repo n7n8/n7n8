@@ -55,6 +55,7 @@ adb shell settings put secure autofill_service com.google.android.gms/.autofill.
 
 - Google Autofill：`com.google.android.gms/.autofill.service.AutofillService`
 - Android Credential Manager：`com.android.credentialmanager/.autofill.CredentialAutofillService`
+- Bitwarden：`com.x8bit.bitwarden/.Autofill.CredentialProviderService`
 - Microsoft Edge：`com.microsoft.emmx/org.chromium.chrome.browser.edge_autofill.EdgeAutofillService`
 - Firefox：`org.mozilla.firefox/org.mozilla.fenix.autofill.AutofillService`
 
