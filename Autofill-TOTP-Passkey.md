@@ -27,7 +27,7 @@ TOTP 找不到好用的（找到能云同步或能本地导出的更难），一
 Aegis Authenticator（[Google Play](https://play.google.com/store/apps/details?id=com.beemdevelopment.aegis) [GitHub](https://github.com/beemdevelopment/Aegis/releases) [F-Droid](https://f-droid.org/packages/com.beemdevelopment.aegis/)）<br>
 如果无法直接访问 F-Droid：[清华源](https://mirrors.tuna.tsinghua.edu.cn/fdroid/repo/?fingerprint=43238D512C1E5EB2D6569F4A3AFBF5523418B82E0A3ED1552770ABB9A9C9CCAB) [CERNET 联合镜像](https://mirrors.cernet.edu.cn/fdroid/repo/?fingerprint=43238D512C1E5EB2D6569F4A3AFBF5523418B82E0A3ED1552770ABB9A9C9CCAB)
 
-[Google Authenticator](https://play.google.com/store/apps/details?id=com.google.android.apps.authenticator2)
+Google Authenticator（[Google Play](https://play.google.com/store/apps/details?id=com.google.android.apps.authenticator2)）
 
 微信小程序“数盾OTP”算是勉强可行选择<br>（清除小程序数据后仍能自动同步，但无法导出核心密钥）
 
