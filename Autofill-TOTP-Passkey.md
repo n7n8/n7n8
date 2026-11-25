@@ -58,6 +58,9 @@ adb shell settings put secure autofill_service com.google.android.gms/.autofill.
 - Bitwarden：`com.x8bit.bitwarden/.Autofill.CredentialProviderService`
 - Microsoft Edge（Microsoft 密码管理器）：`com.microsoft.emmx/org.chromium.chrome.browser.edge_autofill.EdgeAutofillService`
 - Firefox：`org.mozilla.firefox/org.mozilla.fenix.autofill.AutofillService`
+- Brave：`com.brave.browser/org.chromium.chrome.browser.autofill.BraveAutofillService`
+- Opera：`com.opera.browser/com.opera.android.autofill.OperaAutofillService`
+- Yandex：`com.yandex.browser/.autofill.service.ExternalAutofillService`
 
 ### Android 通过 adb 设置 Credential Service (涉及Passkey)（小米HyperOS通用）
 
