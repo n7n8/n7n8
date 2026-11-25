@@ -100,7 +100,7 @@ adb shell settings put secure credential_service_primary com.google.android.gms/
 - Microsoft Authenticator：`com.azure.authenticator/com.microsoft.authenticator.passkeys.businessLogic.AuthenticatorCredentialService`
 - Microsoft Edge（Microsoft 密码管理器）：`com.microsoft.emmx/org.chromium.chrome.browser.webauthn.edge.PasskeyCredentialProviderService`
 - KeePassDX Free：`com.kunzisoft.keepass.free/com.kunzisoft.keepass.credentialprovider.passkey.PasskeyProviderService`
-- 应用程序扩展服务（小米密码管理器）［不推荐］：`com.miui.contentcatcher/com.miui.credential.provider.XiaomiCredentialProviderService`
+- 小米密码管理器［不推荐］：`com.miui.contentcatcher/com.miui.credential.provider.XiaomiCredentialProviderService`
 
 ### HyperOS Passkey 特殊解决方案
 
