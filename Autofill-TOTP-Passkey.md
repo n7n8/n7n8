@@ -111,7 +111,7 @@ adb shell pm uninstall --user 0 com.miui.password
 adb shell pm uninstall --user 0 com.miui.contentcatcher
 ```
 
-附个[FIDO Bridge](https://play.google.com/store/apps/details?id=com.token2.fidobridge)（[Google Drive 下载链接](https://drive.google.com/file/d/1ZRuUy8htAE7wkkXsXHJTVFv7MhGAqzvH/view?usp=drivesdk)），可能会修复小米手机的硬件通行密钥、Firefox通行密钥问题。
+附个[Authnkey](https://f-droid.org/packages/pl.lebihan.authnkey/)，可能会修复小米手机的硬件通行密钥、Firefox通行密钥问题。
 
 ---
 
