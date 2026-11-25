@@ -33,6 +33,8 @@ Google Authenticator（[Google Play](https://play.google.com/store/apps/details?
 
 ### Android 通过 adb 设置 Autofill Service（涉及密码填充）
 
+> 前置条件：开发者设置中打开 `USB 调试`，并且打开 `USB 调试（安全设置）`
+
 扫描此设备所有支持Autofill Service的app及其完整组件名：
 
 ```
@@ -64,6 +66,8 @@ adb shell settings put secure autofill_service com.google.android.gms/.autofill.
 - KeePassDX Free：`com.kunzisoft.keepass.free/com.kunzisoft.keepass.credentialprovider.autofill.KeeAutofillService`
 
 ### Android 通过 adb 设置 Credential Service (涉及Passkey)（小米HyperOS通用）
+
+> 前置条件：开发者设置中打开 `USB 调试`，并且打开 `USB 调试（安全设置）`
 
 扫描此设备所有支持Credential Service的app及其完整组件名：
 
