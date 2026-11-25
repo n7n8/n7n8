@@ -61,6 +61,7 @@ adb shell settings put secure autofill_service com.google.android.gms/.autofill.
 - Brave：`com.brave.browser/org.chromium.chrome.browser.autofill.BraveAutofillService`
 - Opera：`com.opera.browser/com.opera.android.autofill.OperaAutofillService`
 - Yandex：`com.yandex.browser/.autofill.service.ExternalAutofillService`
+- KeePassDX：`com.kunzisoft.keepass.free/com.kunzisoft.keepass.credentialprovider.autofill.KeeAutofillService`
 
 ### Android 通过 adb 设置 Credential Service (涉及Passkey)（小米HyperOS通用）
 
@@ -98,6 +99,7 @@ adb shell settings put secure credential_service_primary com.google.android.gms/
 - Bitwarden：`com.x8bit.bitwarden/com.x8bit.bitwarden.Autofill.CredentialProviderService`
 - Microsoft Authenticator：`com.azure.authenticator/com.microsoft.authenticator.passkeys.businessLogic.AuthenticatorCredentialService`
 - Microsoft Edge（Microsoft 密码管理器）：`com.microsoft.emmx/org.chromium.chrome.browser.webauthn.edge.PasskeyCredentialProviderService`
+- KeePassDX：`com.kunzisoft.keepass.free/com.kunzisoft.keepass.credentialprovider.passkey.PasskeyProviderService`
 
 ### HyperOS Passkey 特殊解决方案
 
