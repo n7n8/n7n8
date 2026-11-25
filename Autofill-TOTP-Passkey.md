@@ -67,7 +67,7 @@ adb shell settings put secure autofill_service com.google.android.gms/.autofill.
 
 ### Android 通过 adb 设置 Credential Service (涉及Passkey)（小米HyperOS通用）
 
-> 前置条件：开发者设置中打开 `USB 调试`，并且打开 `USB 调试（安全设置）`
+> 前置条件：开发者设置中打开 `USB 调试`；如果是 HyperOS，需要打开 `USB 调试（安全设置）`
 
 扫描此设备所有支持Credential Service的app及其完整组件名：
 
