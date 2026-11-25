@@ -137,3 +137,5 @@ adb shell pm uninstall --user 0 com.miui.contentcatcher
 <https://github.com/Kunzisoft/KeePassDX/issues/2220>
 
 <https://github.com/Xposed-Modules-Repo/io.github.howard20181.hyperpasskey>
+
+<https://github.com/cr-zhichen/password-manager-switch>
