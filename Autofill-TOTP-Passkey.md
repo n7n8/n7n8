@@ -134,6 +134,8 @@ adb shell pm uninstall --user 0 com.miui.contentcatcher
 
 [HyperOS国行调用KeePassDX Passkey失效解决方案](https://blog.moo.ac/posts/keepassdx/)
 
+[Fixing third-party passkey pprooviders on Chinese HyperOS using ADB](https://www.reddit.com/r/HyperOS/comments/1w3pyhk/discussion_fixing_thirdparty_passkey_pprooviders/)
+
 <https://github.com/Kunzisoft/KeePassDX/issues/2220>
 
 <https://github.com/Xposed-Modules-Repo/io.github.howard20181.hyperpasskey>
