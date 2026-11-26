@@ -141,6 +141,8 @@ adb shell pm uninstall --user 0 com.miui.contentcatcher
 
 [HyperOS国行调用KeePassDX Passkey失效解决方案](https://blog.moo.ac/posts/keepassdx/)
 
+[国行 HyperOS 无法使用 Bitwarden 通行密钥：ADB 修复方法](https://www.sec314.cn/archives/900)
+
 [Fixing third-party passkey pprooviders on Chinese HyperOS using ADB](https://www.reddit.com/r/HyperOS/comments/1w3pyhk/discussion_fixing_thirdparty_passkey_pprooviders/)
 
 <https://github.com/Kunzisoft/KeePassDX/issues/2220>
