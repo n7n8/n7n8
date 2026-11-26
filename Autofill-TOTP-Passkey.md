@@ -125,7 +125,7 @@ adb shell pm uninstall --user 0 com.miui.password
 adb shell pm uninstall --user 0 com.miui.contentcatcher
 ```
 
-额外推荐 Authnkey（[F-Droid](https://f-droid.org/packages/pl.lebihan.authnkey/) [GitHub源码]），可能会修复 HyperOS 手机的硬件通行密钥、Firefox 通行密钥问题。
+额外推荐 Authnkey（[F-Droid](https://f-droid.org/packages/pl.lebihan.authnkey/) [GitHub源码](https://github.com/mimi89999/Authnkey)），可能会修复 HyperOS 手机的硬件通行密钥、Firefox 通行密钥问题。
 
 ---
 
