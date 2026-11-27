@@ -65,6 +65,7 @@ adb shell settings put secure autofill_service com.google.android.gms/.autofill.
 - Yandex：`com.yandex.browser/.autofill.service.ExternalAutofillService`
 - KeePassDX Free：`com.kunzisoft.keepass.free/com.kunzisoft.keepass.credentialprovider.autofill.KeeAutofillService`
 - 1Password：`com.onepassword.android/.autofill.services.AutofillService`
+- Monica：`takagi.ru.monica/.autofill_ng.MonicaAutofillServiceNg`
 - 小米密码管理：`com.miui.passwords/.newautofill.MiuiAutofillService`
 
 ### Android 通过 adb 设置 Credential Service (涉及Passkey)（小米HyperOS通用）
